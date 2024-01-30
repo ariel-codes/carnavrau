@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  starting_point: MyString
+  latitude: 1.5
+  longitude: 1.5
+  starts_at: 2024-01-30 03:23:44
+  size: MyString
+
+two:
+  name: MyString
+  starting_point: MyString
+  latitude: 1.5
+  longitude: 1.5
+  starts_at: 2024-01-30 03:23:44
+  size: MyString

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ApplicationLayout < ApplicationView
   include Phlex::Rails::Layout
 

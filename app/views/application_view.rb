@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ApplicationView < ApplicationComponent
   # The ApplicationView is an abstract class for all your views.
 
