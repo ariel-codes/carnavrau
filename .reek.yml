@@ -1,0 +1,11 @@
+detectors:
+  IrresponsibleModule:
+    enabled: false
+
+directories:
+  "app/views":
+    TooManyStatements:
+      enabled: false
+
+exclude_paths:
+  - vendor

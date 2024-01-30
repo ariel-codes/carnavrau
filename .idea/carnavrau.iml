@@ -233,6 +233,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="ast (v2.4.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/ast-2.4.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/ast-2.4.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="bigdecimal (v3.1.6) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -299,6 +313,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="brakeman (v6.1.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bundle" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bundle" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/brakeman-6.1.1/bundle" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="builder (v3.2.4) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -339,6 +375,31 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-2.5.5/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bundler-audit (v0.9.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bundler-audit-0.9.1/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -431,6 +492,106 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/debug-1.9.1/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/debug-1.9.1/misc" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-configurable (v1.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-configurable-1.1.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-configurable-1.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-core (v1.0.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-core-1.0.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-core-1.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-inflector (v1.0.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-inflector-1.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-inflector-1.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-initializer (v3.1.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-initializer-3.1.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-initializer-3.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-logic (v1.5.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-logic-1.5.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-logic-1.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-schema (v1.13.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-schema-1.13.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-schema-1.13.3/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-schema-1.13.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-schema-1.13.3/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dry-types (v1.7.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-types-1.7.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/dry-types-1.7.2/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -564,6 +725,34 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/irb-1.11.1/exe" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/irb-1.11.1/man" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="language_server-protocol (v3.17.0.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/language_server-protocol-3.17.0.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/language_server-protocol-3.17.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lint_roller (v1.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/lint_roller-1.1.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/lint_roller-1.1.0/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -796,6 +985,39 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/nokogiri-1.16.0-arm64-darwin/bin" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/nokogiri-1.16.0-arm64-darwin/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/nokogiri-1.16.0-arm64-darwin/gumbo-parser" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parallel (v1.24.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parallel-1.24.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parallel-1.24.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parser (v3.3.0.5) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.0.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.0.5/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.0.5/bin" />
         </excluded>
       </library>
     </orderEntry>
@@ -1054,6 +1276,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rainbow (v3.1.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rainbow-3.1.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rainbow-3.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rake (v13.1.0) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1104,6 +1340,31 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="reek (v6.3.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/logo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/logo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/logo" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/reek-6.3.0/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="regexp_parser (v2.9.0) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1148,6 +1409,90 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rexml-3.2.6/doc" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop (v1.59.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-1.59.0/assets" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-ast (v1.30.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.30.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.30.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-performance (v1.20.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.20.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.20.2/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.20.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.20.2/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-rails (v2.23.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-rails-2.23.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-rails-2.23.1/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-rails-2.23.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rubocop-rails-2.23.1/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-progressbar (v1.13.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/ruby-progressbar-1.13.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/ruby-progressbar-1.13.0/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1208,6 +1553,89 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.7.1-arm64-darwin/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/sqlite3-1.7.1-arm64-darwin/test" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="standard (v1.33.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-1.33.0/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="standard-custom (v1.0.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-custom-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-custom-1.0.2/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-custom-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-custom-1.0.2/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="standard-performance (v1.3.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-performance-1.3.1/docs" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="standard-rails (v1.0.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-rails-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-rails-1.0.2/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-rails-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/standard-rails-1.0.2/config" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1296,6 +1724,25 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/tzinfo-2.0.6/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-display_width (v2.5.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-2.5.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-2.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-2.5.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-2.5.0/data" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1416,6 +1863,7 @@
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="cgi (v0.4.1, asdf: 3.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.0, asdf: 3.3.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.7.1, asdf: 3.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="psych (v5.1.2, asdf: 3.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.6.2, asdf: 3.3.0) [gem]" level="application" />
   </component>
