@@ -6,6 +6,13 @@ directories:
   "app/views":
     TooManyStatements:
       enabled: false
+  "db/migrate":
+    FeatureEnvy:
+      enabled: false
+    TooManyStatements:
+      enabled: false
+    UncommunicativeVariableName:
+      enabled: false
 
 exclude_paths:
   - vendor
