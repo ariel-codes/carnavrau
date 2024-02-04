@@ -15,6 +15,9 @@ class ApplicationLayout < ApplicationView
         stylesheet_link_tag "application", data_turbo_track: "reload"
 
         javascript_importmap_tags
+
+        # For Turbo morphing
+        content_for(:head)
       end
 
       body do
