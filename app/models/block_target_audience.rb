@@ -1,4 +1,4 @@
 class BlockTargetAudience < ApplicationRecord
   belongs_to :block
-  belongs_to :musical_style
+  belongs_to :target_audience
 end

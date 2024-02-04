@@ -38,6 +38,9 @@ gem "redis", ">= 4.0.1"
 # Pure Ruby views <3
 gem "phlex-rails", "~> 1.1"
 
+# A modern, well maintained Ruby HTTP library
+gem "httpx", "~> 1.2"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[windows jruby]
 
@@ -74,4 +77,11 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+
+  # minitest plugins
+  gem "m"
+  gem "minispec-rails"
+  gem "minitest-cc"
+
+  gem "mocktail"
 end
