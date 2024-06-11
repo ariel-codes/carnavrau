@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_11_004826) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_11_014217) do
+  create_table "arraial_arraials", force: :cascade do |t|
+    t.string "name"
+    t.datetime "starts_at"
+    t.string "address"
+    t.integer "min_price"
+    t.string "kind"
+    t.string "obs"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "carnaval_block_musical_styles", force: :cascade do |t|
     t.integer "block_id", null: false
     t.integer "musical_style_id", null: false
@@ -58,9 +69,11 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_11_004826) do
   end
 
   create_table "imported_spreadsheets", force: :cascade do |t|
-    t.text "response_body"
+    t.binary "response_body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "url"
+    t.string "event_type"
   end
 
   add_foreign_key "carnaval_block_musical_styles", "carnaval_blocks", column: "block_id"

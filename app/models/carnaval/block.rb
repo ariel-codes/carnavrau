@@ -6,8 +6,7 @@ module Carnaval
     has_many :block_target_audiences, dependent: :destroy
     has_many :target_audiences, through: :block_target_audiences
 
-    SIZE_ENUM = %w[unknown small medium large].freeze
-    enum size: SIZE_ENUM.zip(SIZE_ENUM).to_h, _suffix: true
+    nice_enum :size, %w[unknown small medium large]
 
     def self.from_csv_row(row)
       starts_at = "#{row[:day]}/#{Time.zone.today.year} #{row[:start_time]}".in_time_zone("Brasilia")

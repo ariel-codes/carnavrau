@@ -2939,6 +2939,50 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="roo (v2.10.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="roo" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1" />
+          <option name="version" value="2.10.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/roo-2.10.1/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rubocop (v1.63.5) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">

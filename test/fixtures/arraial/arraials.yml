@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  starts_at: 2024-06-10 22:02:55
+  min_price: 1
+  obs: MyString
+
+two:
+  name: MyString
+  address: MyString
+  starts_at: 2024-06-10 22:02:55
+  min_price: 1
+  obs: MyString
