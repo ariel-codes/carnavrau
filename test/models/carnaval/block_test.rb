@@ -1,6 +1,6 @@
 require "test_helper"
 
-describe Block do
+describe Carnaval::Block do
   describe ".from_csv_row" do
     row = {
       name: "Mientras Dura", starting_point: "R. Silva Alvarenga, 619, São Geraldo",
@@ -9,7 +9,7 @@ describe Block do
     }
 
     it "creates a block from a row of CSV data" do
-      block = Block.from_csv_row(row)
+      block = Carnaval::Block.from_csv_row(row)
 
       assert_equal "Mientras Dura", block.name
       assert_equal "R. Silva Alvarenga, 619, São Geraldo", block.starting_point
